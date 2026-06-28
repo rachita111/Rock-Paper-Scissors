@@ -1,0 +1,46 @@
+body{
+		background-color: rgb(25,25,25);
+		color: white;
+		font-family:Arial, Helvetica, sans-serif;
+		font-size: 17px;
+	}
+	.container{
+		margin:140px 400px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 30px;
+		border-radius: 20px;
+		box-shadow:10px 10px 20px rgba(210, 219, 220, 0.942);
+	}
+	.game{
+		font-size: 30px;
+		font-weight: bold;
+		color: wheat;
+		font-family: 'Times New Roman', Times, serif;
+		margin:10px 0px 70px 0px;
+
+	}
+	.icon{
+		height: 60px;
+		width: 60px;
+	}
+	.move{
+		background-color: transparent;
+		border: 3px solid white;
+		margin:8px;
+		padding: 26px;
+		border-radius: 100px;
+	}
+	.reset-button{
+		padding: 8px 14px;
+		font-size: 16px;
+		border: none;
+		background-color: white;
+	}
+	.results{
+		font-weight: bold;
+		font-size: 24px;
+		margin-top: 30px;
+	}
+	
