@@ -61,7 +61,7 @@ function displayScore(gameData){
 	document.querySelector('.results')
 		.innerHTML=`${gameData.ans}`;
 	document.querySelector('.display')
-		.innerHTML=`You <img class="icon" src="images/${gameData.playerMove}-emoji.png"> : <img class="icon" src="images/${gameData.compMove}-emoji.png"> Computer`;
+		.innerHTML=`You <img class="icon" src="images/${gameData.playerMove}.png"> : <img class="icon" src="images/${gameData.compMove}.png"> Computer`;
 		scoreDisplay();
 }
 
