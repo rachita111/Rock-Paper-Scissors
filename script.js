@@ -35,9 +35,9 @@ function result(playerMove){
 		else ans='Tie';
 	}
 	let gameData={
-		ans:ans,
-		playerMove:playerMove,
-		compMove:compMove
+		ans,
+		playerMove,
+		compMove
 	};
 	return gameData;
 }
@@ -46,6 +46,7 @@ function playGame(playerMove){
 	const gameData=result(playerMove);
 
 	updateScore(gameData);
+	scoreDisplay();
 	displayScore(gameData);
 }
 
